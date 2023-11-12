@@ -27,3 +27,8 @@ body {
 .navbar-nav.nav-link:hover {
     color: #fff;
 }
+
+p{
+    font-size: 18px;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+}
