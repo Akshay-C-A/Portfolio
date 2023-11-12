@@ -5,7 +5,9 @@ body {
 
 .one{
     background: black;
+    background-color: black;
 }
+
 
 .navbar {
     background-color: rgba(0, 0, 0, 0.3) !important;
