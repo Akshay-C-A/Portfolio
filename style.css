@@ -6,6 +6,7 @@ body {
 .one{
     background: black;
     background-color: black;
+    z-index: 99;
 }
 
 
@@ -48,4 +49,10 @@ img.card-img-top{
 p.card-text{
     color: #fff;
     text-align: center;
+}
+
+#myimage{
+    border-radius: 20px !important;
+    border-color:#fff;
+    border: solid;
 }
