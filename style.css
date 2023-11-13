@@ -12,7 +12,6 @@ body {
 .navbar {
     background-color: rgba(0, 0, 0, 0.3) !important;
     border-bottom: none;
-
 }
 
 .navbar-toggler-icon {
@@ -31,4 +30,22 @@ body {
 p{
     font-size: 18px;
     font-family: "Helvetica Neue",Helvetica,Arial;
+}
+
+.skills{
+    background-color: black;
+}
+
+.card-body{
+    background-color: black;
+}
+
+img.card-img-top{
+    background-color: black;
+    padding: 20%;
+}
+
+p.card-text{
+    color: #fff;
+    text-align: center;
 }
