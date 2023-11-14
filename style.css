@@ -43,7 +43,8 @@ p{
 
 img.card-img-top{
     background-color: black !important;
-    padding: 20%;
+    width:200px !important;
+    height:200px!important;
 }
 
 p.card-text{
@@ -71,4 +72,15 @@ p.card-text{
 
 #myskills{
     font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.card{
+    width: 200px !important;
+    height: 300px!important;
+}
+
+div.col-12.col-xl-3{
+    display:flex !important;
+    align-items: center !important;
+    justify-content: center;
 }
