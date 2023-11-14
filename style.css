@@ -11,7 +11,7 @@ body {
 
 
 .navbar {
-    background-color: rgba(0, 0, 0, 0.3) !important;
+    background-color: rgba(0, 0, 0) !important;
     border-bottom: none;
 }
 
@@ -42,7 +42,7 @@ p{
 }
 
 img.card-img-top{
-    background-color: black;
+    background-color: black !important;
     padding: 20%;
 }
 
