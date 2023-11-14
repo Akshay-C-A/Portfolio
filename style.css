@@ -30,7 +30,7 @@ body {
 
 p{
     font-size: 18px;
-    font-family: "Helvetica Neue",Helvetica,Arial;
+    font-family: 'Poppins', sans-serif;
 }
 
 .skills{
@@ -52,7 +52,23 @@ p.card-text{
 }
 
 #myimage{
-    border-radius: 20px !important;
+    border-radius: 50% !important;
     border-color:#fff;
     border: solid;
+    height: 20rem !important;
+    width: 20rem!important;
+    object-fit: scale-down;
+    background-color:#212121 ;
+}
+
+#aboutme{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+#contactme{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+#myskills{
+    font-family: 'Mochiy Pop P One', sans-serif;
 }
