@@ -84,3 +84,15 @@ div.col-12.col-xl-3{
     align-items: center !important;
     justify-content: center;
 }
+
+#contactme{
+    width: 100% ;
+    padding-right: 0 !important;
+    padding-left: 0!important;
+}
+
+.logos{
+    padding:0;
+    width: 100% !important;
+
+}
