@@ -138,11 +138,13 @@ p{
     padding-right: 0px !important;
 }
 
+
 img.card-img-top {
     width: 100px !important;
     height: 160px !important;
     background-color: #040303;
 }
+
 
 p.card-text{
     color: #fff;
@@ -158,6 +160,10 @@ p.card-text{
 .card {
     width: 100px !important;
     height: 160px !important;
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 div.col-6, div.col-md-4, div.col-xl-3 {
@@ -271,6 +277,10 @@ div.col-6, div.col-md-4, div.col-xl-3 {
     height: 100%;
 }
 
+.logos a :hover{
+    transform: scale(1.1);
+}
+
 
 /* Signup Page */
 .signup {
@@ -339,3 +349,16 @@ div.col-6, div.col-md-4, div.col-xl-3 {
         font-size: 2rem;
     }
 }
+
+
+/* footer */
+footer {
+    background-color: #212121;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer .container {
+    padding-bottom: 20px;
+}
+
