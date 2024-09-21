@@ -3,6 +3,44 @@ body {
     margin: 0;
 }
 
+
+/* Home Section */
+.home {
+    background-color: #040303;
+    color: white;
+    height: 100vh;
+}
+
+.intro-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.intro-heading span {
+    color: #f39c12;
+}
+
+.intro-subheading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: #bdc3c7;
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+    .intro-heading {
+        font-size: 2.5rem;
+    }
+
+    .intro-subheading {
+        font-size: 1.2rem;
+    }
+}
+
+
+
 .one{
     background: black;
     background-color: black;
@@ -66,9 +104,7 @@ p.card-text{
     font-family: 'Mochiy Pop P One', sans-serif;
 }
 
-#contactme{
-    font-family: 'Mochiy Pop P One', sans-serif;
-}
+
 
 #myskills{
     font-family: 'Mochiy Pop P One', sans-serif;
@@ -85,14 +121,62 @@ div.col-12.col-xl-3{
     justify-content: center;
 }
 
-#contactme{
-    width: 100% ;
+#contactme {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    width: 100%;
     padding-right: 0 !important;
-    padding-left: 0!important;
+    padding-left: 0 !important;
+    padding-top: 2rem;
 }
 
-.logos{
-    padding:0;
-    width: 100% !important;
+.contact-form {
+    background-color: #212121;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #f39c12;
+    padding: 20px;
+}
 
+.contact-form .form-control {
+    background-color: #2c2c2c;
+    border: 1px solid #f39c12;
+    color: white;
+}
+
+.contact-form .btn {
+    background-color: #f39c12;
+    color: white;
+    font-weight: bold;
+}
+
+.contact-form .btn:hover {
+    background-color: #e67e22;
+}
+
+/* Make the contact section responsive */
+@media (max-width: 768px) {
+    .contactme {
+        flex-direction: column;
+    }
+
+    .contact-form {
+        margin-bottom: 20px;
+    }
+}
+
+/* Responsive map container */
+.map-responsive {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    margin-top: 20px;
+}
+
+.map-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
