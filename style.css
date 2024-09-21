@@ -198,7 +198,7 @@ div.col-6, div.col-md-4, div.col-xl-3 {
 }
 
 .gallery .card-img-top {
-    height: 250px !important;
+    height: 375px !important;
     object-fit: cover;
     border-radius: 10px;
     width: 100% !important;
