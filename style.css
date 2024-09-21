@@ -28,13 +28,6 @@ body {
     color: #f39c12;
 }
 
-/* .home {
-    background-color: #040303;
-    color: white;
-    height: 100vh;
-} */
-
-
 .bg-video {
     position: absolute;
     top: 0;
@@ -280,9 +273,6 @@ div.col-6, div.col-md-4, div.col-xl-3 {
 
 
 /* Signup Page */
-
-/* Add these styles to your existing style.css file */
-
 .signup {
     font-family: 'Mochiy Pop P One', sans-serif;
     width: 100%;
