@@ -3,44 +3,6 @@ body {
     margin: 0;
 }
 
-
-/* Home Section */
-.home {
-    background-color: #040303;
-    color: white;
-    height: 100vh;
-}
-
-.intro-heading {
-    font-family: 'Poppins', sans-serif;
-    font-size: 3.5rem;
-    margin-bottom: 20px;
-    color: #ffffff;
-}
-
-.intro-heading span {
-    color: #f39c12;
-}
-
-.intro-subheading {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
-    color: #bdc3c7;
-}
-
-/* Responsive Typography */
-@media (max-width: 768px) {
-    .intro-heading {
-        font-size: 2.5rem;
-    }
-
-    .intro-subheading {
-        font-size: 1.2rem;
-    }
-}
-
-
-
 .one{
     background: black;
     background-color: black;
@@ -66,29 +28,40 @@ body {
     color: #fff;
 }
 
-p{
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
+.home {
+    background-color: #040303;
+    color: white;
+    height: 100vh;
 }
 
-.skills{
-    background-color: black;
+.intro-heading {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    color: #ffffff;
 }
 
-.card-body{
-    background-color: black;
+.intro-heading span {
+    color: #f39c12;
 }
 
-img.card-img-top{
-    background-color: black !important;
-    width:200px !important;
-    height:200px!important;
+.intro-subheading {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 1.5rem;
+    color: #bdc3c7;
 }
 
-p.card-text{
-    color: #fff;
-    text-align: center;
+
+@media (max-width: 768px) {
+    .intro-heading {
+        font-size: 2.5rem;
+    }
+
+    .intro-subheading {
+        font-size: 1.2rem;
+    }
 }
+
 
 #myimage{
     border-radius: 50% !important;
@@ -104,22 +77,50 @@ p.card-text{
     font-family: 'Mochiy Pop P One', sans-serif;
 }
 
+p{
+    font-size: 18px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.skills{
+    background-color: black;
+}
+
+.card-body{
+    background-color: black;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+img.card-img-top {
+    width: 100px !important;
+    height: 160px !important;
+    background-color: #040303;
+}
+
+p.card-text{
+    color: #fff;
+    text-align: center;
+    font-size: small;
+}
 
 
 #myskills{
     font-family: 'Mochiy Pop P One', sans-serif;
 }
 
-.card{
-    width: 200px !important;
-    height: 300px!important;
+.card {
+    width: 100px !important;
+    height: 160px !important;
 }
 
-div.col-12.col-xl-3{
-    display:flex !important;
+div.col-6, div.col-md-4, div.col-xl-3 {
+    display: flex !important;
     align-items: center !important;
     justify-content: center;
 }
+
+
 
 #contactme {
     font-family: 'Mochiy Pop P One', sans-serif;
@@ -127,6 +128,7 @@ div.col-12.col-xl-3{
     padding-right: 0 !important;
     padding-left: 0 !important;
     padding-top: 2rem;
+    /* higeht: 100vh; */
 }
 
 .contact-form {
@@ -153,7 +155,7 @@ div.col-12.col-xl-3{
     background-color: #e67e22;
 }
 
-/* Make the contact section responsive */
+
 @media (max-width: 768px) {
     .contactme {
         flex-direction: column;
@@ -164,11 +166,11 @@ div.col-12.col-xl-3{
     }
 }
 
-/* Responsive map container */
+
 .map-responsive {
     position: relative;
     overflow: hidden;
-    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    padding-bottom: 56.25%; 
     height: 0;
     margin-top: 20px;
 }
