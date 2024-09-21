@@ -84,6 +84,7 @@ p{
 
 .skills{
     background-color: black;
+    min-height: 100vh;
 }
 
 .card-body{
@@ -127,8 +128,7 @@ div.col-6, div.col-md-4, div.col-xl-3 {
     width: 100%;
     padding-right: 0 !important;
     padding-left: 0 !important;
-    padding-top: 2rem;
-    /* higeht: 100vh; */
+    min-height: 100vh;
 }
 
 .contact-form {
