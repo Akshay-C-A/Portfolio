@@ -70,6 +70,17 @@ body {
     color: #f39c12;
 }
 
+.intro-heading span {
+    display: inline-block;
+    animation: fadeIn 3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+
 .intro-subheading {
     font-family: 'Mochiy Pop P One', sans-serif;
     font-size: 1.5rem;
@@ -164,6 +175,7 @@ p.card-text{
 
 .card:hover {
     transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
 }
 
 div.col-6, div.col-md-4, div.col-xl-3 {
@@ -202,6 +214,7 @@ div.col-6, div.col-md-4, div.col-xl-3 {
     border-radius: 10px;
     width: 100% !important;
 }
+
 
 @media (max-width: 767px) {
     .gallery .card-img-top {
@@ -280,6 +293,12 @@ div.col-6, div.col-md-4, div.col-xl-3 {
 .logos a :hover{
     transform: scale(1.1);
 }
+
+.logos img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
 
 
 /* Signup Page */
